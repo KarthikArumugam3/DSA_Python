@@ -1,3 +1,3 @@
-# DSA
+# Data Structures & Algorithms using Python
 
-This repository contains all of my codes related to dsa topics.
+This repository contains all of my codes related to DSA topics using python.
