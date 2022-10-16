@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 #Jupyter
-.ipynb_checkpoints/
+ipynb_checkpoints/
 
 #Unwanted files
 Searching_Algorithms/
