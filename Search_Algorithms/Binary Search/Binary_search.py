@@ -1,3 +1,5 @@
+from datetime import datetime
+
 sorted_nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
 
 def find_num(sorted_list, num):
@@ -31,5 +33,10 @@ def find_num(sorted_list, num):
     elif sorted_list[middle] != num and start > end:
         print(f"The number {num} was not found in the given list.")
 
-
+start = datetime.now()
 find_num(sorted_nums, 14)
+end = datetime.now()
+
+time_difference = end - start
+
+print("Time taken :: ",time_difference.total_seconds()," seconds")
