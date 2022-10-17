@@ -33,6 +33,7 @@ def find_num(sorted_list, num):
     elif sorted_list[middle] != num and start > end:
         print(f"The number {num} was not found in the given list.")
 
+
 start = datetime.now()
 find_num(sorted_nums, 14)
 end = datetime.now()

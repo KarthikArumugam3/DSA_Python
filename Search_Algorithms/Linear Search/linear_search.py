@@ -18,7 +18,6 @@ def find_car(current_parking, current_car):
             pass
 
 
-
 start = datetime.now()
 find_car(cars, 7)
 end = datetime.now()
